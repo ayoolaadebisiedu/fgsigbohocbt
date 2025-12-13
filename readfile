@@ -1,0 +1,25 @@
+Faith Immaculate Academy CBT
+ss -ltnp | grep 5000
+kill <OLD_PID>
+# then restart the dev server
+npm run dev
+
+/Users/PC/Desktop/fiaCbtSystem2-main/client/src/lib/firebase.ts:47:14
+45 |  }
+46 |  
+47 |  const auth = getAuth(app);
+   |               ^
+48 |  
+49 |  export { app, db, auth }
+
+
+C:/Users/PC/Desktop/fiaCbtSystem2-main/client/src/pages/exam-start.tsx:136:60
+134|                      <h3 className="font-medium">Questions</h3>
+135|                      <p className="text-sm text-muted-foreground">
+136|                        This exam contains {exam.questionIds.length} questions worth a
+   |                                                             ^
+137|                        total of {exam.totalPoints} points.
+138|                      </p>
+
+
+when ever i access the project hosted on this computer from another computer it dose not login student  even though it is a correct login but if i login same credential on this computer it will login to exam succefully, dose it not have access to the db
